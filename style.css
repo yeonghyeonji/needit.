@@ -1,0 +1,161 @@
+body, html {cursor: url(./img/cursor.cur), auto}
+
+*{
+    font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: normal;
+}
+
+ul{
+    list-style: none;
+    
+    padding:0px!important; 
+    }
+
+#nav{
+    margin-top: 20px;
+}
+#nav a {
+    margin-left:20px;
+    color:black;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+#nav p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+margin-left: 20px;
+}
+
+
+#navWrapper{
+    position:fixed;
+    height: 100vh;
+    width: 380px;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 0px;
+    
+}
+#contentsWrapper{
+    margin-left: 380px;
+    width: calc(100% - 380px);
+    margin-top: 20px;
+    padding: 0px;
+    right: 0px;
+    
+}
+#nav{
+    /* background-color: antiquewhite; */
+    width: 100%;
+}
+#divider{
+    background-color: black;
+    width: 2px;
+    padding: 0px;
+}
+
+#horizontalDivider{
+    background-color: black;
+    width: 100%;
+    height:2px;
+}
+
+#title{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+margin-left: 20px;
+}
+
+#titleEng{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+
+#largerText{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+}
+
+#largerTextEng{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+}
+
+#textWrapper{
+    margin-left: 20px;
+}
+
+#tempt{
+position: absolute;
+width: 404px;
+height: 404px;
+left: 70vw;
+top: 50vh;
+background-color: black;
+border-radius: 50%;
+}
+
+
+
+#largeText{
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px; 
+}
+
+#largeTextEng{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+}
+
+#smallText{
+    font-family: Apple SD Gothic Neo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+}
+
+#smallTextEng{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+}
+
+
+.dot{
+    background-color: rgb(0, 0, 0); width: 18px; height: 18px;
+    display:inline-block;
+    border-radius: 50%;
+    margin:1em;
+}
+
+.logo{
+    margin: 20px;
+    width: 100%;
+}
+
+p a{
+    text-decoration: none;
+    color: black
+}
+
+p a:hover{
+    color:rgb(202, 202, 202)
+}

@@ -25,7 +25,7 @@ ul{
 #nav p {
     font-family: Poppins;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 24px;
 margin-left: 20px;
 }
@@ -63,7 +63,7 @@ margin-left: 20px;
 }
 #contentsWrapper{
     margin-left: 380px;
-    width: calc(100% - 380px);
+    width: calc(100% - 390px);
     margin-top: 20px;
     padding: 0px;
     right: 0px;
@@ -90,7 +90,7 @@ margin-left: 20px;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
-margin-left: 20px;
+
 }
 
 #titleEng{
@@ -116,7 +116,8 @@ font-size: 72px;
 }
 
 #textWrapper{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -193,6 +194,10 @@ p a:hover{
         display:block;
         
     }
+
+    #textWrapper{
+        padding-left: 20px;
+    }
     
     
    #nav {
@@ -214,7 +219,6 @@ p a:hover{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    margin-left: 20px;
     }
 
     #titleEng{
@@ -287,8 +291,8 @@ p a:hover{
     position: fixed;
     z-index: 2;
     padding: 8px 0;
-    top: 4px;
-    right: 4px;
+    top: 10px;
+    right: 10px;
     user-select: none;
     width: auto;
     margin: 0;

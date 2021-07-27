@@ -183,6 +183,10 @@ p a:hover{
 
 
 @media only screen and (max-width : 980px) {
+    .sentence1{
+        margin-bottom: 70vh;
+    }
+    
     .dot{
         background-color: rgb(0, 0, 0); width: 10px; height: 10px;
         display:inline-block;
@@ -212,6 +216,7 @@ p a:hover{
    #contentsWrapper{
        margin-left:0px;
        width: 100%;
+       
    }
 
    #title{
@@ -351,3 +356,102 @@ p a:hover{
     top: 0;
   }
   
+
+
+
+
+
+.arrow {
+  z-index: 1000;
+  opacity: 1;
+  position: absolute;
+  right:10px;
+  top: 30vh;
+
+}
+
+.circle {
+  transform: translate(50%, -50%) rotate(0deg);
+  transform-origin: center;
+
+}
+
+
+
+
+.draw-in {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 10;
+  animation: draw 10s ease-in-out alternate infinite;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.item-to {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: ease;
+}
+
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+
+.bounce-3 {
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce-3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+

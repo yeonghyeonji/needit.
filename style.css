@@ -179,11 +179,22 @@ p a:hover{
 }
 
 
-
-
+.kit{
+  width: 70%;
+}
+@media only screen and (max-width : 1500px) {
+  .kit{
+    width: 90%;
+  }
+}
 
 @media only screen and (max-width : 980px) {
-    .sentence1{
+    /* .kit{
+      width: 90%;
+    } */
+  
+  
+  .sentence1{
         margin-bottom: 70vh;
     }
     

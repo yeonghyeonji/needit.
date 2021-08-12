@@ -182,17 +182,50 @@ p a:hover{
 .kit{
   width: 70%;
 }
+
+
 @media only screen and (max-width : 1500px) {
-  .kit{
-    width: 90%;
+  
+  .manual{
+    width:auto;
   }
 }
 
-@media only screen and (max-width : 980px) {
-    /* .kit{
-      width: 90%;
-    } */
+
+.columnKit {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 5em;
   
+}
+
+.rowKit {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.rowKit:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnKit {
+    width: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width : 980px) {
+  .rowKit{
+    width: 80%;
+  }
+
+    
   
   .sentence1{
         margin-bottom: 70vh;
@@ -306,9 +339,9 @@ p a:hover{
     display: inline-block;
     position: fixed;
     z-index: 2;
-    padding: 8px 0;
-    top: 10px;
-    right: 10px;
+    padding: 8px;
+    top: 20px;
+    right: 20px;
     user-select: none;
     width: auto;
     margin: 0;
